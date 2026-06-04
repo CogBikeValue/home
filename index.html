@@ -1,26 +1,56 @@
-<div class="hero">
-    <h1>COG</h1>
-    <p>Community hub for bike collecting, trading, and official experiences.</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<div class="navigator">
+<div class="background"></div>
 
-    <button id="prev" class="arrow">&#10094;</button>
+<div class="container">
 
-    <div class="card">
-        <h2 id="title"></h2>
-        <p id="description"></p>
-
-        <a id="visitBtn" target="_blank">
-            Open Page
-        </a>
+    <div class="hero">
+        <h1>COG</h1>
+        <p>
+            Community hub for bike collecting, trading, values,
+            and official COG experiences.
+        </p>
     </div>
 
-    <button id="next" class="arrow">&#10095;</button>
+    <div class="navigator">
+
+        <button id="prev" class="arrow">
+            &#10094;
+        </button>
+
+        <div class="card">
+
+            <img id="pageImage" class="page-image" src="" alt="">
+
+            <h2 id="title"></h2>
+
+            <p id="description"></p>
+
+            <a id="visitBtn" target="_blank">
+                Open Page
+            </a>
+
+        </div>
+
+        <button id="next" class="arrow">
+            &#10095;
+        </button>
+
+    </div>
+
+    <div id="dots" class="dots"></div>
 
 </div>
-
-<div id="dots" class="dots"></div>
 
 <script src="script.js"></script>
 
+</body>
+</html>
