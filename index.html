@@ -1,65 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COG - Home</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<div class="hero">
+    <h1>COG</h1>
+    <p>Community hub for bike collecting, trading, and official experiences.</p>
+</div>
 
-<div class="background"></div>
+<div class="navigator">
 
-<div class="overlay">
+    <button id="prev" class="arrow">&#10094;</button>
 
-    <div class="hero">
-        <h1>COG</h1>
-        <p>
-            Community hub for bike collecting, values,
-            and official COG experiences.
-        </p>
+    <div class="card">
+        <h2 id="title"></h2>
+        <p id="description"></p>
+
+        <a id="visitBtn" target="_blank">
+            Open Page
+        </a>
     </div>
 
-    <div class="grid">
-
-        <a href="https://cogbikevalue.github.io/collection/" class="card">
-            <h2>🚲 Bike Collection</h2>
-            <p>Browse every bike image.</p>
-        </a>
-
-        <a href="https://cogbikevalue.github.io/bikes/" class="card">
-            <h2>💰 Bike Values</h2>
-            <p>Trading values and market information.</p>
-        </a>
-
-        <a href="https://www.roblox.com/games/100550219954127/Cog" class="card">
-            <h2>⚙️ COG</h2>
-            <p>Main game experience.</p>
-        </a>
-
-        <a href="https://www.roblox.com/games/97656354500235/Highway-Loop" class="card">
-            <h2>🛣️ Highway Loop</h2>
-            <p>Ride long roads and explore.</p>
-        </a>
-
-        <a href="https://www.roblox.com/games/81716287708579/Cog-Touge-1" class="card">
-            <h2>⛰️ Downhill Touge</h2>
-            <p>Downhill riding.</p>
-        </a>
-
-        <a href="https://www.roblox.com/games/119484254343449/Trade-Hub" class="card">
-            <h2>🔄 Trade Hub</h2>
-            <p>Meet traders and exchange bikes.</p>
-        </a>
-
-        <a href="https://www.roblox.com/communities/34646663/Cogs-And-Chainrings" class="card">
-            <h2>👥 Cogs & Chainrings</h2>
-            <p>Official Roblox community group.</p>
-        </a>
-
-    </div>
+    <button id="next" class="arrow">&#10095;</button>
 
 </div>
 
-</body>
-</html>
+<div id="dots" class="dots"></div>
+
+<script src="script.js"></script>
+
